@@ -1,12 +1,26 @@
 * {
   align-items: center;
   text-align: center;
+  margin: 0;
 }
 
 header {
   background-color: rgb(194, 20, 20);
+  color: white;
+}
+header h1 {
+  text-align: left;
 }
 
 footer {
   background-color: rgb(194, 20, 20);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.links {
+  width: 30;
+  height: 30;
 }
